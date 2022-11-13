@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 
   html, body {
     font-family: 'Pretendard', sans-serif;
+    background-color: #fff;
   }
 
   &:link, &:visited {
