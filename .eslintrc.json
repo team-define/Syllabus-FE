@@ -1,3 +1,35 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": [
+		"react-app",
+		"prettier/prettier",
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:prettier/recommended"
+	],
+	"plugins": ["react-hooks", "react", "prettier"],
+	"parser": "babel-eslint",
+	"env": {
+		"browser": true,
+		"es5": true,
+		"node": true
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"rules": {
+		"react/react-in-jsx-scope": 0,
+		"react/prefer-stateless-function": 0,
+		"react/jsx-filename-extension": 0,
+		"react/jsx-one-expression-pre-line": 0,
+		"no-nested-ternary": 0
+	}
 }
