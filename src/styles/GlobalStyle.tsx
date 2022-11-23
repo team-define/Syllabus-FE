@@ -11,7 +11,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   html, body {
-    font-family: 'Pretendard', sans-serif;
+    font-family: Pretendard, sans-serif;
+    font-weight: 400;
     background-color: #fff;
   }
 

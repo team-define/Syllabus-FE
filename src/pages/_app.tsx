@@ -4,6 +4,7 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import { RecoilRoot } from "recoil";
 import { ThemeProvider } from "styled-components";
+import Layout from "@components/layout";
 import "@assets/fonts/font.css";
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -15,7 +16,9 @@ export default function App({ Component, pageProps }: AppProps) {
       <RecoilRoot>
         <ThemeProvider theme={theme}>
           <GlobalStyle />
-          <Component {...pageProps} />
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
         </ThemeProvider>
       </RecoilRoot>
     </>
