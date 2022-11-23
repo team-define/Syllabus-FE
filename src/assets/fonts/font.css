@@ -1,4 +1,18 @@
 @font-face {
+  font-family: "GmarketsansBold";
+  src: url("./GmarketSansBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LineSeedSansBold";
+  src: url("./LINESeedSans_W_Bd.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Pretendard";
   src: url("./Pretendard-Regular.woff") format("woff");
   font-weight: 400;
