@@ -1,4 +1,4 @@
-import { Lectures } from "@/mock/lectures";
+import { Lectures } from "@mock/lectures";
 import { searchQuery } from "@recoil/searchQuery";
 import Search from "@components/main/search";
 import { useEffect, useState } from "react";
